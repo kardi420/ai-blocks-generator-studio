@@ -1,0 +1,29 @@
+{
+  "name": "ai-blocks-studio",
+  "version": "1.0.0",
+  "description": "AI-powered Gutenberg block generation plugin.",
+  "author": "AI Blocks Studio Team",
+  "license": "GPL-2.0-or-later",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "format": "wp-scripts format",
+    "lint:js": "wp-scripts lint-js",
+    "lint:js:src": "wp-scripts lint-js src",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.0.0",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "latest",
+    "@wordpress/blocks": "latest",
+    "@wordpress/components": "latest",
+    "@wordpress/data": "latest",
+    "@wordpress/element": "latest",
+    "@wordpress/i18n": "latest"
+  }
+}

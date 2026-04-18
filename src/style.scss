@@ -1,0 +1,25 @@
+.wp-block-promptblocks-ai-block {
+	border: 2px dashed #ccc;
+	padding: 20px;
+	border-radius: 8px;
+	background: #f9f9f9;
+	margin-bottom: 20px;
+
+	.components-placeholder {
+		background: transparent;
+		box-shadow: none;
+	}
+
+	.components-textarea-control__input {
+		font-family: inherit;
+		font-size: 14px;
+	}
+
+	.components-button.is-primary {
+		margin-top: 15px;
+		width: 100%;
+		justify-content: center;
+		height: 40px;
+		font-weight: 600;
+	}
+}
